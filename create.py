@@ -4,7 +4,7 @@ import sqlite3
 connection = sqlite3.connect('sample.db')
 
 # create a table
-table = 'CREATE TABLE People (id interger primary key, name TEXT, suname TEXT)'
+table = 'CREATE TABLE People (id interger primary key, name TEXT, surame TEXT)'
 
 # create a curseor to interact with the db
 cursor = connection.cursor()
